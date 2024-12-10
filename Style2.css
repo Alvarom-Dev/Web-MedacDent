@@ -1,0 +1,360 @@
+/* Contenedor del heider*/
+
+header{
+    height:150px;
+    color:#FBF9F1;
+}
+#logo{
+text-align:center;
+padding-bottom: 0%;
+}
+header img{
+    width: 290px;
+    height:150px;
+}
+
+/* Contenedor del body*/
+
+#cuadroEstable{
+    background-color:#FBF9F1;
+    margin-top: 30px;
+    height: 510px;
+    overflow-y:auto;
+}
+
+.contenedor-main{
+    font-family: 'Roboto', sans-serif;
+      text-align: center;
+      height: 1000px;
+      margin: 0;
+      padding-bottom: 50px;
+      /*background-color: rgb(240, 250, 255);*/
+      background-color: #b6d6e2;
+
+}
+
+.informacionPersonal{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-left: 50px;
+    margin-right:50px;
+}
+label{
+display:block;
+font-weight: 700;
+padding:10px;
+cursor:pointer;
+}
+
+.divInformacionTexto{
+   margin-top: 20px;
+   
+}
+
+.textoInformacionPersonal{
+  
+    font-size:20px;
+    font-style:italic bold;
+    display:inline-block;
+    padding: 6px 15px;
+    text-decoration:none;
+    background-color:#FBF9F1;
+    color:black;
+    border-radius: 10px;
+    border: 1px solid;
+    transition: background-color 0.3s;
+}
+
+.fecha{
+    padding-top:20px;
+}
+
+#parrafoFecha{
+    
+    font-size:20px;
+    font-style:italic bold;
+    display:inline-block;
+    padding: 6px 35px;
+    text-decoration:none;
+    background-color:#FBF9F1;
+    color:black;
+    border-radius: 10px;
+    border: 1px solid;
+    transition: background-color 0.3s;
+}
+
+.fechaNacimiento{
+    padding-top: 20px;
+    margin-right: 30px;
+}
+
+#cajaFecha{
+    text-align:center;
+    height: 40px;
+    width: 500px;
+    border-radius:20px;
+    font-size:15px;
+}
+
+#cajaNombre{
+    text-align: center;
+    height: 40px;
+    width: 360px;
+    border-radius:10px;
+    font-size:15px;
+    
+}
+
+#cajaApellidos{
+    text-align: center;
+    height: 40px;
+    width: 400px;
+    border-radius:10px;
+    font-size:15px;
+    
+}
+
+#cajaDni{
+    text-align: center;
+    height: 40px;
+    width: 400px;
+    border-radius:10px;
+    font-size:15px;
+    
+}
+
+#cajaTelefono{
+    text-align: center;
+    height: 40px;
+    width: 400px;
+    border-radius:10px;
+    font-size:15px;
+    
+}
+
+#cajaFechaNacimiento{
+    text-align: center;
+    height: 40px;
+    width: 300px;
+    border-radius:10px;
+    font-size:15px;
+    
+}
+
+#etiquetaNombre{
+    font-size:20px;
+    font-style:italic;
+    display:inline-block;
+    padding: 6px 15px;
+    text-decoration:none;
+    background-color:#19376D;
+    color:whitesmoke;
+    border-radius: 10px;
+    border: 1px solid;
+    transition: background-color 0.3s;
+}
+
+#etiquetaApellidos{
+    font-size:20px;
+    font-style:italic;
+    display:inline-block;
+    padding: 6px 15px;
+    text-decoration:none;
+    background-color:#19376D;
+    color:whitesmoke;
+    border-radius: 10px;
+    border: 1px solid;
+    transition: background-color 0.3s;
+}
+
+#etiquetaDni{
+    font-size:20px;
+    font-style:italic;
+    display:inline-block;
+    padding: 6px 15px;
+    text-decoration:none;
+    background-color:#19376D;
+    color:whitesmoke;
+    border-radius: 10px;
+    border: 1px solid;
+    transition: background-color 0.3s;
+}
+
+#etiquetaTelefono{
+    font-size:20px;
+    font-style:italic;
+    display:inline-block;
+    padding: 6px 15px;
+    text-decoration:none;
+    background-color:#19376D;
+    color:whitesmoke;
+    border-radius: 10px;
+    border: 1px solid;
+    transition: background-color 0.3s;
+}
+
+#etiquetaFechaNacimiento{
+    font-size:20px;
+    font-style:italic;
+    display:inline-block;
+    padding: 6px 15px;
+    text-decoration:none;
+    background-color:#19376D;
+    color:whitesmoke;
+    border-radius: 10px;
+    border: 1px solid;
+    transition: background-color 0.3s;
+}
+
+.botones{
+    margin-top: 40px;
+}
+
+.botonConfirmar{
+    font-size:18px;
+    font-style:italic;
+    display:inline-block;
+    padding: 6px 15px;
+    text-decoration:none;
+    background-color:rgb(214, 230, 214);
+    color:rgb(1, 26, 1);
+    border-radius: 10px;
+    border: 1px solid;
+    transition: background-color 0.3s;
+}
+.botonActualizar{
+
+    font-size:18px;
+    font-style:italic;
+    display:inline-block;
+    padding: 6px 15px;
+    text-decoration:none;
+    background-color:whitesmoke;
+    color:rgb(54, 48, 48);
+    border-radius: 10px;
+    border: 1px solid;
+    transition: background-color 0.3s;
+}
+
+#botonModificar{
+    font-size:17px;
+    font-style:italic;
+    display:inline-block;
+    padding: 1px 10px;
+    margin-right: 5px;
+    text-decoration:none;
+    background-color:rgb(214, 230, 214);
+    color:rgb(1, 26, 1);
+    border-radius: 10px;
+    border: 1px solid;
+    transition: background-color 0.3s;
+}
+#botonEliminar{
+
+    font-size:18px;
+    font-style:italic;
+    display:inline-block;
+    padding: 1px 10px;
+    text-decoration:none;
+    background-color:whitesmoke;
+    color:rgb(54, 48, 48);
+    border-radius: 10px;
+    border: 1px solid;
+    transition: background-color 0.3s;
+}
+/*Contenedor del footer*/
+
+footer{
+    height: 0px;
+    background-color:#FBF9F1;
+    padding: 10px,0;
+}
+
+.contenedorFooter{
+    margin-top: 30px;
+    text-align: center;
+    font-family: bold;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+#footer-email{
+    
+    margin-right: 150px;
+}
+
+#footer-instagram{
+    
+    margin-right: 150px;
+}
+
+#footer-facebook{
+   
+    margin-right: 150px;
+}
+#footer-facebook img{
+width:90px;
+}
+/* Estilos para las validaciones*/
+
+.validar{
+    text-decoration: none;
+}
+
+.parrafoValidacionApellidos{
+    font-family:'Roboto', sans-serif;
+    font-size: 12px;
+    margin-bottom: 0;
+    display:none;
+    color:red;
+    padding-left: 100px;
+}
+
+.parrafoValidacionApellidos-activo{
+    
+    display:block;
+}
+
+.parrafoValidacionNombre{
+    font-family:'Roboto', sans-serif;
+    font-size: 12px;
+    margin-bottom: 0px;
+    display:none;
+    color:red;
+    padding-left: 100px;
+}
+
+.parrafoValidacionNombre-activo{
+    display:block;
+}
+
+.parrafoValidacionDni{
+    font-family:'Roboto', sans-serif;
+    font-size: 12px;
+    margin-bottom: 0;
+    display:none;
+    color:red;
+    padding-left: 100px;
+}
+
+.parrafoValidacionDni-activo{
+    display:block;
+}
+
+.parrafoValidacionTelefono{
+    font-family:'Roboto', sans-serif;
+    font-size: 12px;
+    margin-bottom: 0;
+    display:none;
+    color:red;
+    padding-left: 100px;
+}
+
+.parrafoValidacionTelefono-activo{
+    display:block;
+}

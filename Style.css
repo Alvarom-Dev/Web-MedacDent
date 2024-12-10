@@ -1,0 +1,103 @@
+
+/* Contenedor del heider*/
+
+header{
+    height:220px;
+}
+#logo{
+text-align:center;
+padding-bottom: 0%;
+}
+header img{
+    width: 450px;
+    height:220px;
+}
+
+
+/* Contenedor del body*/
+.contenedor1{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 850px;
+      margin: 0;
+      padding-bottom: 50px;
+      background-color: rgb(240, 250, 255);
+}
+
+#botonCita{
+    text-align:center;
+    padding-right: 100px;
+}
+
+#botonVerCitas{
+    text-align:center;
+}
+.botonUno{
+    font-size:30px;
+    font-style:italic;
+    display:inline-block;
+    padding: 80px 160px;
+    text-decoration:none;
+    background-color:rgb(156, 206, 209);
+    color:black;
+    border-radius: 50px;
+    border: 1px solid;
+    transition: background-color 0.3s;
+}
+
+.botonUno:hover{
+    color:#2980b9;
+}
+
+.botonDos{
+    font-size:30px;
+    font-style:italic;
+    display:inline-block;
+    padding: 80px 160px;
+    text-decoration:none;
+    background-color:rgb(156, 206, 209);
+    color:black;
+    border-radius: 50px;
+    border: 1px solid;
+    transition: background-color 0.3s;
+    
+}
+.botonDos:hover{
+    color:#2980b9;
+}
+/* Seccion del footer*/
+
+footer{
+    padding: 10px ,0;
+}
+
+.contenedorFooter{
+    margin-top: 30px;
+    text-align: center;
+    font-family: bold;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+#footer-email{
+    
+    margin-right: 150px;
+}
+
+#footer-instagram{
+    
+    margin-right: 150px;
+}
+
+#footer-facebook{
+   
+    margin-right: 150px;
+}
+#footer-facebook img{
+width:90px;
+}
